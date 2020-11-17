@@ -1,0 +1,196 @@
+---
+title: "A Template for Systematic Reviews and Metaanalyses"
+author:
+- "Jürgen Schneider"
+- "Iris Backfisch"
+date: "`r Sys.Date()`"
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
+---
+
+
+```{r setup, echo=F, message=F, warning=F, comment=F}
+knitr::opts_chunk$set(echo = F, message = F, warning = F)
+library(dplyr)
+library(kableExtra)
+```
+
+\
+\
+\
+
+<div style="padding: 5px; background-color: #F0F0F0;">
+__This is__ a Rmd-template for protocols and reporting of systematic reviews and meta-analyses. It synthesizes three sources of standards:
+
+* [PRISMA-P](https://doi.org/10.1136/bmj.i4086)
+* [PROSPERO](https://www.crd.york.ac.uk/prospero/)
+* [MARS](https://doi.org/10.1037/amp0000389)
+
+The template is __aimed at__
+
+* guiding the process of planning the systematic review/ meta-analysis
+* providing a form for preregistration (enter your text, export as standalone html, upload as preregistration)
+
+We are aware that MARS targets aspects of reporting after the systematic review/ meta-analysis is completed rather than decisions and reasoning in the planning phase as PRISMA-P and PROSPERO. MARS nevertheless provides a good framework to determine crucial points for systematic reviews/ meta-analyses to be addressed as early as in the planning phase.
+</div>
+
+  
+_Standards have been partially adapted. Click 'show changes' to see changes and reasons for change._  
+
+<button data-toggle="collapse" data-target="#changes">show changes</button>
+<div id="changes" class="collapse">
+| standard |  implemented change  | reason                      |
+|:---------|:---------------------|:----------------------------|
+| MARS |  Left out paper section "Abstract"  |  An abstract is important for reporting, not however, for planning and registering. |
+| MARS |  Left out paper section "Results" and parts of "Discussion"  |  Specifications on how to report results is important for reporting, not however, for planning and registering. Prospective information on how results will be computed/ synthesized is preserved. |
+| MARS | Left out "Protocol: List where the full protocol can be found" | This form practically is the protocol. |
+|  PROSPERO  |  Left out non-mandatory fields or integrated them with mandatory fields.  |  Avoiding too detailed specifications. All relevant information will be integrated. |
+| PROSPERO | Left out some options in "Type and method of review" | Options left out are purely health/ medicine related. |
+| PROSPERO | Left out "Health area of the review" | This field is purely health/ medicine related. |
+
+
+</div>
+
+\
+\
+\
+
+
+# General 
+
+## Working Title
+
+_Put your text here._
+
+
+## Type of Review
+
+_Put your text here._
+
+
+## Link to Registration
+
+_Put your text here._
+
+
+## Anticipated start and completion date
+
+_Put your text here._
+
+
+## Stage of Review
+
+_Put your text here._
+
+
+## Names, Affiliations, Contact
+
+_Put your text here._
+
+
+## Collaborators
+
+_Put your text here._
+
+
+## Amendments to previous versions
+
+_Put your text here._
+
+
+## Funding sources, sponsors and their roles
+
+_Put your text here._
+
+
+## Conflict of Interest
+
+_Put your text here._
+
+
+# Introduction
+
+## Rationale
+
+_Put your text here._
+
+
+## Research Questions
+
+_Put your text here._
+
+
+# Methods
+
+
+## Eligibility: Inclusion and Exclusion Criteria
+
+_Put your text here._
+
+
+## Sources of Search: List and Rationale
+
+_Put your text here._
+
+
+## Search Strategy
+
+_Put your text here._
+
+
+## Data Management Tools Used
+
+_Put your text here._
+
+
+## Selection of Studies
+
+_Put your text here._
+
+
+## Method of Extracting Data & Information (from Reports)
+
+_Put your text here._
+
+
+## List and Description of Data and Information Extracted
+
+_Put your text here._
+
+
+## Effect Size Transformation from Individual Studies
+
+_Put your text here._
+
+
+## Risk of Bias in Individual Studies
+
+_Put your text here._
+
+
+# Results
+
+
+## Strategy for Data Synthesis
+
+_Put your text here._
+
+
+## Moderators/ Subgroups
+
+_Put your text here._
+
+
+## Assessment of Publication Bias
+
+_Put your text here._
+
+
+# Discussion
+
+
+## Strength of Cumulative Evidence
+
+_Put your text here._
