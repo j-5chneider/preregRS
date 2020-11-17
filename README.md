@@ -7,8 +7,11 @@ Authors are:
 * Iris Backfisch
 
 ## Installation
-To this point you have to pull the Github repo.  
-We will make this into a package for Rmd-templates and give installation guidelines here.
+
+```r
+remotes::install_github("j-5chneider/preregRS")
+# Please report any installation bugs in the issues
+```
 
 ## Usage
 
