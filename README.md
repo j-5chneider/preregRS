@@ -17,7 +17,7 @@ remotes::install_github("j-5chneider/preregRS")
 
 ### Open Template
 
-<iframe src='https://gfycat.com/ifr/InfantilePitifulBovine' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe>
+![](https://thumbs.gfycat.com/InfantilePitifulBovine-mobile.mp4)
 
 1. Install the package (see above)
 2. Restart your RStudio
