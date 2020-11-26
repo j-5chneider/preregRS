@@ -16,8 +16,7 @@ remotes::install_github("j-5chneider/preregRS")
 ## Usage
 
 ### Open Template
-
-![](https://thumbs.gfycat.com/InfantilePitifulBovine-mobile.mp4)
+![](https://i.imgur.com/jlfUY6J.gif)
 
 1. Install the package (see above)
 2. Restart your RStudio
@@ -25,7 +24,7 @@ remotes::install_github("j-5chneider/preregRS")
 4. Choose _From Template_ and choose either _preregRS to HTML_ or _preregRS to PDF_
 
 ### Fill out Template
-<div style='position:relative; padding-bottom:calc(56.25% + 44px)'><iframe src='https://gfycat.com/ifr/AccurateSoulfulIchthyostega' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+![](https://i.imgur.com/LgkJ4Rw.gif)
 
 * We recommend to compile the .Rmd file first to get a glimpse at how the final preregistration will be structured (sections). Do this by hitting the "knit" button in RStudio.
 * To get a better idea of what you can specify in each section, we included the original descriptions from the sources used (PRISMA-P, PROSPERO, MARS). Get this information by clicking the "more info" button in the compiled HTML or check out the tables under the section headings in the PDF.
