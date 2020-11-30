@@ -107,9 +107,11 @@ _Standards have been partially adapted. Click 'show changes' to see changes and 
 | MARS |  Left out paper section "Abstract"  |  An abstract is important for reporting, not however, for planning and registering. |
 | MARS |  Left out paper section "Results" and parts of "Discussion"  |  Specifications on how to report results is important for reporting, not however, for planning and registering. Prospective information on how results will be computed/ synthesized is preserved. |
 | MARS | Left out "Protocol: List where the full protocol can be found" | This form practically is the protocol. |
-|  PROSPERO  |  Left out non-mandatory fields or integrated them with mandatory fields.  |  Avoiding too detailed specifications. All relevant informations will be integrated. |
+|  PROSPERO  |  Left out non-mandatory fields or integrated them with mandatory fields.  |  Avoiding too detailed specifications. All relevant information will be integrated. |
 | PROSPERO | Left out some options in "Type and method of review" | Options left out are purely health/ medicine related. |
 | PROSPERO | Left out "Health area of the review" | This field is purely health/ medicine related. |
+| PRISMA-P | Left out "If registered, provide the name of the registry (such as PROSPERO) and registration number." | This template serves as a preregistration form. |
+| MARS | Left out "Give the place where the synthesis is registered and its registry number, if registered" | This template serves as a preregistration form. |
 
 
 </div>
@@ -190,36 +192,6 @@ _Put your text here._
 
 
 
-## Link to Registration
-
-<button data-toggle="collapse" data-target="#ltr">more info</button>
-<div id="ltr" class="collapse">
-
-```{r}
-# avoiding markdown tables because they're not exactly the prettiest flower in the bunch
-# set up the table
-table_sources <- data.frame(source = c("PRISMA-P",     # first column will be always the same
-                                       "PROSPERO", 
-                                       "MARS"),
-                            description = c(# PRISMA-P
-                                            "If registered, provide the name of the registry (such as PROSPERO) and registration number.",
-                                            # PROSPERO
-                                            "Not specified.",
-                                            # MARS
-                                            "Give the place where the synthesis is registered and its registry number, if registered"))
-
-# produce table
-knitr::kable(table_sources) %>%
-    kable_styling(fixed_thead = T, full_width = T) %>%
-    column_spec(1, bold = T) %>%
-    row_spec(0, background = "#ececec")
-```
-
-</div> 
-
-_Put your text here._
-
-
 ## Anticipated start and completion date
 
 <button data-toggle="collapse" data-target="#aasd">more info</button>
@@ -251,7 +223,7 @@ _Put your text here._
 
 
 
-## Stage of Review
+## Stage of Synthesis
 
 <button data-toggle="collapse" data-target="#sor">more info</button>
 <div id="sor" class="collapse">
@@ -809,8 +781,7 @@ table_sources <- data.frame(source = c("PRISMA-P",     # first column will be al
                                             # PROSPERO
                                             "Not specified.",
                                             # MARS
-                                            "Describe the statistical methods for calculating effect sizes, including the metric(s) used (e.g., correlation coefficients,
-differences in means, risk ratios) and formula(s) used to calculate effect sizes."))
+                                            "Describe the statistical methods for calculating effect sizes, including the metric(s) used (e.g., correlation coefficients, differences in means, risk ratios) and formula(s) used to calculate effect sizes."))
 
 # produce table
 knitr::kable(table_sources) %>%
