@@ -9,6 +9,7 @@ Authors are:
 ## Installation
 
 ```r
+install.packages("remotes")
 remotes::install_github("j-5chneider/preregRS")
 # Please report any installation bugs in the issues
 ```
