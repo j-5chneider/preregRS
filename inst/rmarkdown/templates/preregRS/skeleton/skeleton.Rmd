@@ -73,7 +73,7 @@ h1 {
 ```
 
 ```{r setup, echo=F, message=F, warning=F, comment=F}
-knitr::opts_chunk$set(echo = F, message = F, warning = F)
+knitr::opts_chunk$set(echo = T, message = F, warning = F)
 library(dplyr)
 library(kableExtra)
 ```
@@ -615,13 +615,16 @@ _Put your text here._
 # set up the table
 table_sources <- data.frame(Source = c("PRISMA-P",     # first column will be always the same
                                        "PROSPERO", 
-                                       "MARS"),
+                                       "MARS",
+                                       "Added by authors"),
                             Description = c(# PRISMA-P
                                             "Present draft of search strategy to be used for at least one electronic database, including planned limits, such that it could be repeated.",
                                             # PROSPERO
                                             "URL to search strategy: Give a link to a published pdf/word document detailing either the search strategy or an example of a search strategy for a specific database if available (including the keywords that will be used in the search strategies), or upload your search strategy. Do NOT provide links to your search results. Alternatively, upload your search strategy to CRD in pdf format. Please note that by doing so you are consenting to the file being made publicly accessible.",
                                             # MARS
-                                            "Describe all information sources: Search strategies of electronic searches, such that they could be repeated (e.g., include the search terms used, Boolean connectors, fields searched, explosion of terms)."))
+                                            "Describe all information sources: Search strategies of electronic searches, such that they could be repeated (e.g., include the search terms used, Boolean connectors, fields searched, explosion of terms).",
+                                            # added by authors
+                                            "Checklist for Search Strategy: \"PRESS\" Peer Review of Electronic Search Strategies https://doi.org/10.1016/j.jclinepi.2016.01.021"))
 
 # produce table
 knitr::kable(table_sources) %>%
