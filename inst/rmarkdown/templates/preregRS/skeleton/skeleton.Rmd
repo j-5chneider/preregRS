@@ -1,14 +1,14 @@
 ---
 title: "A Template for Systematic Reviews and Meta-analyses"
 author:
-- affiliation: University of Tübingen          # When knitting to PDF
-  email: juergen.schneider@uni-tuebingen.de    # delete this entire
-  name: Jürgen Schneider                       # section and only use
-  url: https://uni-tuebingen.de/de/175743      # - "Jürgen Schneider, juergen.schneider@uni-tuebingen.de"
-- affiliation: University of Tübingen          # - "Iris Backfisch, iris.backfisch@uni-tuebingen.de"
-  email: iris.backfisch@uni-tuebingen          # under the 'author:'.
-  name: Iris Backfisch                         # PDF does not support author affiliations
-  url: https://uni-tuebingen.de/de/169665      # and will display 'true' instead of names
+- affiliation: put your institution here       # When knitting to PDF
+  email: your.email.here@uni.edu               # delete this entire
+  name: put your name here                     # section and only use
+  url: put link to your website here           # - "your name, your email"
+- affiliation: put coauthor's institution here # - "Iris Backfisch, iris.backfisch@uni-tuebingen.de"
+  email: coauthors.email.here@uni.edu          # under the 'author:'.
+  name: put coauthor's name here               # PDF does not support author affiliations
+  url: put link to coauthors website here      # and will display 'true' instead of names
 date: "`r Sys.Date()`"
 output:
   html_document:
