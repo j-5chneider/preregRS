@@ -6,6 +6,12 @@ Authors are:
 * [Jürgen Schneider](https://orcid.org/0000-0002-3772-4198)
 * [Iris Backfisch](https://orcid.org/0000-0002-1363-9888)
 
+Try it out with this jupyter notebook:  
+<!-- badges: start -->
+  [![Launch Rstudio Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/j-5chneider/preregRS-jupyter/main?urlpath=rstudio)
+  <!-- badges: end -->
+Click on the button and open the 'preregRS.Rmd'.
+
 ## Installation
 
 ```r
