@@ -5,7 +5,7 @@ author:
   email: your.email.here@uni.edu               # delete this entire
   name: put your name here                     # section and only use
   url: put link to your website here           # - "your name, your email"
-- affiliation: put coauthor's institution here # - "Iris Backfisch, iris.backfisch@uni-tuebingen.de"
+- affiliation: put coauthor's institution here # - "coauthors name, coauthors email"
   email: coauthors.email.here@uni.edu          # under the 'author:'.
   name: put coauthor's name here               # PDF does not support author affiliations
   url: put link to coauthors website here      # and will display 'true' instead of names
