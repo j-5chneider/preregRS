@@ -41,8 +41,9 @@ remotes::install_github("j-5chneider/preregRS")
 ![](https://i.imgur.com/LgkJ4Rw.gif)
 
 ## Cite
-__Preprint__  
-Preprint will follow soon.  
+__Publication__  
+Schneider, J., Backfisch, I., & Lachner, A. (2022). Facilitating Open Science Practices for Research Syntheses: PreregRS Guides Preregistration. _Research Synthesis Methods, 13_(2), 284–289. https://doi.org/10.1002/jrsm.1540
+ 
   
 __Presentation__   
 Schneider, J., Backfisch, I., & Lachner, A. (2021). preregRS guides preregistration. Facilitating Open Science Practices for research syntheses. ZPID (Leibniz Institute for Psychology). https://doi.org/10.23668/PSYCHARCHIVES.4825
