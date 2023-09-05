@@ -115,6 +115,10 @@ _Standards have been partially adapted. Click 'show changes' to see changes and 
 
 
 </div>
+  
+  
+__Cite as__  
+Schneider, J., Backfisch, I., & Lachner, A. (2022). Facilitating Open Science Practices for Research Syntheses: PreregRS Guides Preregistration. _Research Synthesis Methods, 13_(2), 284–289. https://doi.org/10.1002/jrsm.1540
 
 \
 \
