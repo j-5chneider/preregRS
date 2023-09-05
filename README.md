@@ -20,6 +20,20 @@ remotes::install_github("j-5chneider/preregRS")
 # Please report any installation bugs in the issues
 ```
 
+__Currently__  
+you will also need to install the development version of the `kableExtra` package. Otherwise you will get an error when compiling to HTML or PDF. This bug is already fixed, but not yet in the CRAN version of the package.
+```r
+install.packages("devtools")
+devtools::install_github("kupietz/kableExtra")
+```
+
+__When compiling to PDF__  
+You will need to install TinyTex (but, you know, HTML is better anyways):
+```r
+install.packages('tinytex')
+tinytex::install_tinytex()
+```
+
 ## Usage
 
 ### Open Template
