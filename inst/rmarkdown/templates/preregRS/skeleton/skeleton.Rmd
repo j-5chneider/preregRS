@@ -23,6 +23,7 @@ output:
     toc: yes
     toc_depth: '2'
     latex_engine: xelatex # or lualatex
+    number_sections: yes
 ---
 
 ```{css, echo=FALSE}
