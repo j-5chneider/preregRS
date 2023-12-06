@@ -54,6 +54,23 @@ tinytex::install_tinytex()
 
 ![](https://i.imgur.com/LgkJ4Rw.gif)
 
+
+
+## FAQ
+### In PDF I want to get rid of the tables and R code!
+
+Alrighty, no problem. Simply change 
+```{r}
+knitr::opts_chunk$set(echo = T, message = F, warning = F)
+```
+to
+```{r}
+knitr::opts_chunk$set(echo = F, message = F, warning = F, eval = F)
+```
+
+This will keep the "more info" text in the PDF, but leave out the tables and R code. However, the first table on the differences compared to MARS, PROSPERO and PRISMA-P will still be visible.
+
+
 ## Cite
 __Publication__  
 Schneider, J., Backfisch, I., & Lachner, A. (2022). Facilitating Open Science Practices for Research Syntheses: PreregRS Guides Preregistration. _Research Synthesis Methods, 13_(2), 284–289. https://doi.org/10.1002/jrsm.1540
