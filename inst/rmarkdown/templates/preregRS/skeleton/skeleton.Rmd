@@ -22,6 +22,7 @@ output:
   pdf_document:
     toc: yes
     toc_depth: '2'
+    latex_engine: xelatex # or lualatex
 ---
 
 ```{css, echo=FALSE}
